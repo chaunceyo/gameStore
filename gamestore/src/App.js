@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
 import './App.css';
+import Navbar from './NavBar/NavBar';
+import Home from './Pages/Home/Home';
+import PlayStation from './Pages/Playstation/Playstation'
+import Xbox from './Pages/Xbox/Xbox'
+
+
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>ManCave</h1>
       </header>
-    </div>
+      <Navbar/>
+      <nav className='App-nav'>
+        <Routes>
+          <Route  path='/' element={<Home/>}></Route>
+          <Route  path='/playstation' element={<PlayStation/>}></Route>
+          <Route  path='/xbox' element={<Xbox/>}></Route>
+        </Routes>
+      </nav>
+      </div>
+      </Router>
   );
 }
 
