@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
 import './App.css';
-import Navbar from './NavBar/NavBar';
+import NavBar from './NavBar/NavBar';
 import Home from './Pages/Home/Home';
 import PlayStation from './Pages/Playstation/Playstation'
 import Xbox from './Pages/Xbox/Xbox'
@@ -13,9 +13,9 @@ function App() {
     <Router>
     <div className="App">
       <header className="App-header">
-        <h1>ManCave</h1>
+        <h1>gameStore</h1>
       </header>
-      <Navbar/>
+      <NavBar/>
       <nav className='App-nav'>
         <Routes>
           <Route  path='/' element={<Home/>}></Route>

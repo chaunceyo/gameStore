@@ -1,0 +1,20 @@
+.home-header{
+    color: #000000;
+}
+
+.new-section{
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.Home-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.new-items{
+    background-color: #a5a5a5;
+}

@@ -1,44 +1,52 @@
 import React from 'react';
+import './Home.css'
 
 const Home = () => {
     return(
         <div>
-            <h1>Home</h1>
+            <div className='home-header'>
+                <h1>Home</h1>
+            </div>
+
+            <div className='new-section'>
+                <h1>New Releases</h1>
+            </div>
+
             <div className='Home-container'>
-                <div className='item'>
+                <div className='new-items'>
                 <img 
-                src='https://images.footballfanatics.com/dallas-mavericks/dallas-mavericks-jordan-statement-edition-swingman-jersey-navy-luka-doncic-unisex_ss4_p-13365080+u-qx71rxwoemdyo63go58p+v-b4b51bc54e3e41b0aae8ca20961780dd.jpg?_hv=2&w=600'
+                src='https://image.api.playstation.com/vulcan/ap/rnd/202405/2216/cbb03393f0ab1149f2b89a8194ce19e596a24fa5bec6526a.png'
                 alt="Description "
                 width='300'
                 height='300'></img>
-                <p>Luka Jersey</p>
+                <p>Dragon Ball: Sparking! Zero</p>
                 </div>
 
-                <div className='item'>
+                <div className='new-items'>
                 <img 
-                src='https://images.footballfanatics.com/dallas-mavericks/dallas-mavericks-nike-city-edition-swingman-jersey-23-black-kyrie-irving-unisex_ss5_p-200822768+u-zqmbp4zqncgtwe2t7nze+v-gc8hf4lhcfclc9lwg11d.jpg?_hv=2'
+                src='https://image.api.playstation.com/vulcan/ap/rnd/202406/0521/47126dbd889a804f04e5b80ea35973622b041c060c9e1249.jpg'
                 alt="Description "
                 width='300'
                 height='300'></img>
-                <p>Kyrie Jersey</p>
+                <p>NBA 2K25</p>
                 </div>
 
-                <div className='item'>
+                <div className='new-items'>
                 <img 
-                src='https://dks.scene7.com/is/image/GolfGalaxy/22NIKMNBWRRRSBLCRGSW?qlt=70&wid=600&fmt=webp&op_sharpen=1'
+                src='https://image.api.playstation.com/vulcan/ap/rnd/202308/0312/aff71a0ced271048f5079b1fcf715bcb45110efc13e9704a.png'
                 alt="Description "
                 width='250'
                 height='300'></img>
-                <p>Curry Jersey</p>
+                <p>Tekken 8</p>
                 </div>
 
-                <div className='item'>
+                <div className='new-items'>
                 <img 
-                src='https://fanatics.frgimages.com/baltimore-ravens/mens-nike-lamar-jackson-black-baltimore-ravens-legend-jersey_pi3167000_ff_3167132_full.jpg?_hv=2'
+                src='https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png'
                 alt="Description "
                 width='300'
                 height='300'></img>
-                <p>Lamar Jersey</p>
+                <p>God of War Ragnarök</p>
                 </div>
             </div>
         </div>
