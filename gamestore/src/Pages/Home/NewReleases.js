@@ -42,7 +42,7 @@ const NewReleases = () => {
                 alt="Description "
                 width='250'
                 height='300'></img>
-                <p>Naruto X Boruto Ninja Storm Connections</p>
+                <p>Naruto X Boruto <br/> Ninja Storm Connections</p>
                 </div>
 
                 <div className='new-items'>

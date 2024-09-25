@@ -20,7 +20,7 @@ const PSBestSellers = () => {
                 
                 <div className='psConsole-items'>
                     <img 
-                    src='https://products.eneba.games/resized-products/oTmXEq8cssvbEvwL3_69UVLd5a-ajU-uKP0gRC3LEqI_350x200_1x-0.jpeg'
+                    src='https://gamebroslb.com/cdn/shop/products/image_53fd8473-3b4a-49ae-9501-369a9acf9abc.webp?v=1659994132'
                     alt="Description "
                     width='300'
                     height='300'></img>

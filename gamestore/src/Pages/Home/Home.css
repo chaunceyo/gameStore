@@ -13,8 +13,10 @@
     flex-wrap: wrap;
     gap: 20px;
     padding: 10px;
+    padding-left: 100px;
 }
 
 .new-items{
     background-color: #a5a5a5;
+    
 }

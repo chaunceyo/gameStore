@@ -1,0 +1,21 @@
+.xboxConsole-section{
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.xboxConsole-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    padding-left: 100px;
+}
+
+.xboxConsole-items{
+    background-color: #a5a5a5;
+}
+
+img{
+    background-color: white;
+}
