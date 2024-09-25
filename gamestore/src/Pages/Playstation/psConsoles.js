@@ -1,7 +1,7 @@
 import React from 'react';
 import './Playstation.css'
 
-const psConsoles = () => {
+const PSConsoles = () => {
     return(
         <div>
             <div className='psConsole-section'>
@@ -9,7 +9,7 @@ const psConsoles = () => {
             </div>
 
             <div className='psConsole-container'>
-                    <div className='psConsole-items'>
+                <div className='psConsole-items'>
                     <img 
                     src='https://i5.walmartimages.com/asr/257979b9-5e09-4d49-a9c3-1d0af2e3b368.0c9295d5e6d8aa8af7d454d52e9079b7.jpeg'
                     alt="Description "
@@ -49,4 +49,4 @@ const psConsoles = () => {
     )
 }
 
-export default psConsoles;
+export default PSConsoles;
