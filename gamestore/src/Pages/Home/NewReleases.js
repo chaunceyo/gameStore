@@ -8,7 +8,7 @@ const NewReleases = () => {
                 <h1>New Releases</h1>
             </div>
 
-            <div className='Home-container'>
+            <div className='new-container'>
                 <div className='new-items'>
                 <img 
                 src='https://image.api.playstation.com/vulcan/ap/rnd/202405/2216/cbb03393f0ab1149f2b89a8194ce19e596a24fa5bec6526a.png'

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
 import './App.css';
 import NavBar from './NavBar/NavBar';
@@ -9,6 +9,7 @@ import Xbox from './Pages/Xbox/Xbox'
 
 
 function App() {
+
   return (
     <Router>
     <div className="App">

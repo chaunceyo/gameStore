@@ -1,5 +1,17 @@
-.Playstation-header{
+        .psConsole-section{
+        display: flex;
+        justify-content: flex-start;
+        padding: 50px;
+    }
     
-        color: #000000;
+    .psConsole-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px;
+    }
     
-}
+    .psConsole-items{
+        background-color: #a5a5a5;
+    }
+    
