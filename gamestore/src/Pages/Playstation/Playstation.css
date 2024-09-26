@@ -14,16 +14,15 @@
     
     .psConsole-items{
         background-color: #a5a5a5;
-    }
-
-
-    .psSpiderman{
         position: relative;
         display: inline-block
     }
 
 
-    .psSpiderman:hover .psGIF{
+    
+
+
+    .psConsole-items:hover .psGIF{
         opacity: 1;
     }
     
