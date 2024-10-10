@@ -1,0 +1,43 @@
+.item-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    padding-bottom: 60px;
+    
+}
+
+.item-price{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    font-size: xx-large;
+   
+}
+
+.item-img{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+
+
+.item-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.item-info{
+    padding-top: 100px;
+    padding-left: 40px;
+    
+}
+
+.add-to-cart-btn{
+    font-weight: bold;
+    height: 100px;
+    width: 200px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #a5a5a5;
+    border-radius: 15px;
+}

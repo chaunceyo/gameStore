@@ -1,24 +1,28 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import gameList from "../../data/gameData";
+import './ItemPage.css'
 
 
-const ItemPage = ({gameIMG}) => {
+const ItemPage = () => {
     const {gameName} = useParams()
     const game = gameList.find(game => gameName == game.name)
 
     return(
         <div className="item-wrapper">
-            {console.log(gameName)}
-            {console.log(game)}
             <div className='item-container'>     
-            <h1>{game.name}</h1>    
-            <h2>${game.price}</h2>
-                 <img 
+                <img className="item-img"
                     src={game.imageUrl}
                     alt="Description "
-                    width='750'
-                    height='750'></img>
+                    width='600'
+                    height='600'>
+                </img>
+                <div className="item-info">
+                    <h1 className="item-name">{game.name}</h1>    
+                    <h2 className="item-price">${game.price}</h2>
+                    <br/>
+                    <button className="add-to-cart-btn">Add to Cart</button>
+                </div>
             </div>
         </div>
     )
