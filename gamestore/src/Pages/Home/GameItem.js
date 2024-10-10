@@ -14,6 +14,7 @@ const GameItem = ({game}) => {
                                     width='300'
                                     height='300'></img>
                                     <p>{game.name}</p>
+                                    <p>${game.price}</p>
                                 </div>
                 </Link>
                 
