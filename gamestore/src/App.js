@@ -5,6 +5,7 @@ import NavBar from './NavBar/NavBar';
 import Home from './Pages/Home/Home';
 import PlayStation from './Pages/Playstation/Playstation'
 import Xbox from './Pages/Xbox/Xbox'
+import ItemPage from './Pages/Home/ItemPage';
 
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route  path='/' element={<Home/>}></Route>
           <Route  path='/playstation' element={<PlayStation/>}></Route>
           <Route  path='/xbox' element={<Xbox/>}></Route>
+          <Route  path={`/item/:gameName`} element={<ItemPage/>}/>
         </Routes>
       </nav>
       </div>
