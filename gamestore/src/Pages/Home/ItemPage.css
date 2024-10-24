@@ -14,7 +14,7 @@
 
 .item-img{
     display: flex;
-    padding-left: 40px;
+    padding-left: 100px;
     padding-top: 100px;
 }
 
@@ -28,7 +28,7 @@
 
 .item-info{
     padding-top: 100px;
-    padding-left: 40px;
+    padding-left: 500px;
     
 }
 

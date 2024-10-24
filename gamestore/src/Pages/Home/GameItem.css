@@ -1,0 +1,19 @@
+.game-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;     
+}
+
+
+.game-link{
+    text-decoration: none ;
+}
+
+
+.game-price{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+

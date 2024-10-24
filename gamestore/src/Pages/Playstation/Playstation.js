@@ -1,5 +1,4 @@
 import React from 'react';
-import './Playstation.css';
 import PSConsoles from './PSConsoles';
 import PSBestSellers from './PSBestSellers';
 

@@ -8,6 +8,10 @@
     padding: 50px;
 }
 
+.new-section h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .new-container{
     display: flex;
     flex-wrap: wrap;
