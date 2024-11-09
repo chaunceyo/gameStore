@@ -4,15 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-require('dotenv').config()
-
-const server = require('./api/server')
-
-const port = process.env.PORT
-
-server.listen(port, () => {console.log(`API running on port ${port}`)})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <App />

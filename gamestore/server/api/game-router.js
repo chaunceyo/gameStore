@@ -1,8 +1,8 @@
 const router = require('express').Router()
 
-router.use('*', (req, res, next) => {
-    res.json({ api: 'up'})
-})
+router.get('/games', (req, res) => {
+    res.json({ message: 'List of games' });
+  });
 
 router.use((err, req, res, next) => {
     res.status(500).json({
