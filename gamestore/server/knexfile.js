@@ -10,7 +10,7 @@ const sharedConfig = {
   
     development: {
       ...sharedConfig,
-      connection: { filename: './data/cook_book.db3' },
+      connection: { filename: './data/gameCollection.db3' },
     },
       
      
