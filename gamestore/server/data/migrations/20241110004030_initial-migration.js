@@ -16,7 +16,7 @@ exports.up = async function(knex) {
     table.string('game_gif', 200).notNullable()
     table.string('console_type', 200)
         .notNullable()
-        .references('console_type')
+        .references('console_id')
         .inTable('consoles')
         .onDelete('RESTRICT')
         .onUpdate('RESTRICT')
