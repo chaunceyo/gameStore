@@ -6,7 +6,7 @@ exports.up = async function(knex) {
     table.string('console_name', 200).notNullable().unique()
     table.integer('console_price', 200).notNullable()
     table.string('console_img', 200).notNullable()
-    table.string('console_type', 200).notNullable()
+    //table.string('console_type', 200).notNullable()
   })
   .createTable('xbox_games', table => {
     table.increments('game_id')

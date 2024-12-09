@@ -1,3 +1,11 @@
+const consoleList = [
+    {
+        console_name: 'Dragon Ball: Sparking! Zero',
+        console_price: 59.99,
+        console_img: 'https://image.api.playstation.com/vulcan/ap/rnd/202405/2216/cbb03393f0ab1149f2b89a8194ce19e596a24fa5bec6526a.png',
+    }
+]
+
 const gameList = [
     {
         game_name: 'Dragon Ball: Sparking! Zero',
@@ -65,6 +73,8 @@ const gameList = [
 
 
 exports.seed = async function(knex){
+    await knex('xbox_games').insert(gameList)
     await knex('playstation_games').insert(gameList)
+    await knex('consoles').insert(consoleList)
     
 }
