@@ -1,4 +1,5 @@
 import React from 'react';
+import { Auth0ProviderWithNavigate } from './Auth0/auth0-provider-with-navigate';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -8,9 +9,11 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <Auth0ProviderWithNavigate>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Auth0ProviderWithNavigate>
 );
 
 // If you want to start measuring performance in your app, pass a function
