@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
-import { Auth0ProviderWithNavigate } from './Auth0/auth0-provider-with-navigate';
+import { Auth0Provider } from '@auth0/auth0-react';
 import './App.css';
 import Header from './Header/header';
 import NavBar from './NavBar/NavBar';
@@ -15,6 +15,7 @@ function App() {
 
   return (
     <Router>
+      <Auth0Provider>
     <div className="App">
      <Header/>
       <NavBar/>
@@ -27,6 +28,7 @@ function App() {
         </Routes>
       </nav>
       </div>
+      </Auth0Provider>
       </Router>
   );
 }
