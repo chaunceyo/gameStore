@@ -1,5 +1,5 @@
 import React from 'react';
-import { Auth0ProviderWithNavigate } from './Auth0/auth0-provider-with-navigate';
+
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './index.css';

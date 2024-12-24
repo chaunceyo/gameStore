@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
+import { BrowserRouter, Router,Route,Routes } from 'react-router-dom';
 import { Auth0Provider } from '@auth0/auth0-react';
 import './App.css';
 import Header from './Header/header';
@@ -14,7 +14,8 @@ import ItemPage from './Pages/Home/ItemPage';
 function App() {
 
   return (
-    <Router>
+    
+    <BrowserRouter>
       <Auth0Provider>
         <div className="App">
           <Header/>
@@ -28,8 +29,8 @@ function App() {
             </Routes>
           </nav>
         </div>
-      </Auth0Provider>
-    </Router>
+        </Auth0Provider>
+        </BrowserRouter>
   );
 }
 
