@@ -16,20 +16,20 @@ function App() {
   return (
     <Router>
       <Auth0Provider>
-    <div className="App">
-     <Header/>
-      <NavBar/>
-      <nav className='App-nav'>
-        <Routes>
-          <Route  path='/' element={<Home/>}></Route>
-          <Route  path='/playstation' element={<PlayStation/>}></Route>
-          <Route  path='/xbox' element={<Xbox/>}></Route>
-          <Route  path={`/item/:gameName`} element={<ItemPage/>}/>
-        </Routes>
-      </nav>
-      </div>
+        <div className="App">
+          <Header/>
+          <NavBar/>
+          <nav className='App-nav'>
+            <Routes>
+              <Route  path='/' element={<Home/>}></Route>
+              <Route  path='/playstation' element={<PlayStation/>}></Route>
+              <Route  path='/xbox' element={<Xbox/>}></Route>
+              <Route  path={`/item/:gameName`} element={<ItemPage/>}/>
+            </Routes>
+          </nav>
+        </div>
       </Auth0Provider>
-      </Router>
+    </Router>
   );
 }
 
