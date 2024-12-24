@@ -15,8 +15,7 @@ function App() {
 
   return (
     
-    <BrowserRouter>
-      <Auth0Provider>
+    
         <div className="App">
           <Header/>
           <NavBar/>
@@ -29,8 +28,7 @@ function App() {
             </Routes>
           </nav>
         </div>
-        </Auth0Provider>
-        </BrowserRouter>
+     
   );
 }
 
