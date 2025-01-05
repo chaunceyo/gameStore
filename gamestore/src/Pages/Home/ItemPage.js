@@ -6,7 +6,7 @@ import './ItemPage.css'
 
 const ItemPage = () => {
     const {gameName} = useParams()
-    const game = gameList.find(game => gameName == game.name)
+    const game = gameList.find(game => gameName === game.name)
 
     return(
         <div className="item-wrapper">

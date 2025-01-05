@@ -8,6 +8,7 @@ import Home from './Pages/Home/Home';
 import PlayStation from './Pages/Playstation/Playstation'
 import Xbox from './Pages/Xbox/Xbox'
 import ItemPage from './Pages/Home/ItemPage';
+import { CallbackPage } from './Auth0/callback-page';
 
 
 
@@ -25,6 +26,7 @@ function App() {
               <Route  path='/playstation' element={<PlayStation/>}></Route>
               <Route  path='/xbox' element={<Xbox/>}></Route>
               <Route  path={`/item/:gameName`} element={<ItemPage/>}/>
+              <Route path="/callback" element={<CallbackPage />} />
             </Routes>
           </nav>
         </div>
