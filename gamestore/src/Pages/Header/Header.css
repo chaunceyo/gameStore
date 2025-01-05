@@ -1,3 +1,5 @@
-.App-header{
-    
+.login-buttons{
+    display: flex;
+    position: relative;
+    left: 700px;
 }

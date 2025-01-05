@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <header className="App-header">
             <h1>gameStore</h1>
-            <div>
+            <div className='login-buttons'>
                 {!isAuthenticated && (
                     <>
                         <SignupButton />
