@@ -67,6 +67,7 @@ const gameList = [
         game_gif: 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2x1MDJ1c2lzNndqZ3d1b3kyN3gxeTcyb3drbGtncHJqaDU5ajZlOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QxnI5GOpnnQZwImeqh/giphy.gif',
         game_img: 'https://image.api.playstation.com/vulcan/ap/rnd/202305/1515/93797636f47b37b74e9d3740e17ae1306aaf539c7952a703.jpg',
     },
+    
 ]
 
 
