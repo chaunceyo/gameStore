@@ -67,6 +67,25 @@ const gameList = [
         game_gif: 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2x1MDJ1c2lzNndqZ3d1b3kyN3gxeTcyb3drbGtncHJqaDU5ajZlOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QxnI5GOpnnQZwImeqh/giphy.gif',
         game_img: 'https://image.api.playstation.com/vulcan/ap/rnd/202305/1515/93797636f47b37b74e9d3740e17ae1306aaf539c7952a703.jpg',
     },
+    {
+        game_name: "Marvel's Spiderman 2",
+        game_price: 39.99,
+        game_gif: 'https://i.makeagif.com/media/10-12-2023/dDrfS7.gif',
+        game_img: 'https://m.media-amazon.com/images/I/81WUPcfQ9OL._AC_UF1000,1000_QL80_.jpg',
+    },
+    {
+        game_name: "Ghost of Tsushima: Director's Cut",
+        game_price: 29.99,
+        game_gif: 'https://media.tenor.com/TCBvPlkAwC0AAAAM/ghost-of-tsushima-video-game.gif',
+        game_img: 'https://gamebroslb.com/cdn/shop/products/image_53fd8473-3b4a-49ae-9501-369a9acf9abc.webp?v=1659994132',
+    },
+    {
+        game_name: 'Elden Ring',
+        game_price: 39.99,
+        game_gif: 'https://i.makeagif.com/media/11-07-2021/s4K2Zt.gif',
+        game_img: 'https://m.media-amazon.com/images/I/81h2WhI4dtL._AC_UF1000,1000_QL80_.jpg',
+    },
+    
     
 ]
 
