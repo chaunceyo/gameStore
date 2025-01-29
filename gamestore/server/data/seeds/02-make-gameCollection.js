@@ -85,6 +85,24 @@ const gameList = [
         game_gif: 'https://i.makeagif.com/media/11-07-2021/s4K2Zt.gif',
         game_img: 'https://m.media-amazon.com/images/I/81h2WhI4dtL._AC_UF1000,1000_QL80_.jpg',
     },
+    {
+        game_name: "Assassin's Creed: Shadows",
+        game_price: 44.99,
+        game_gif: 'https://media2.giphy.com/media/JBzWx7tz59BXJ3w7Uw/giphy-downsized.gif',
+        game_img: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTdmuTIfP7YWN5virazuWh6cEcwz8ASSjs8B2LpxIVyVAwdx6_lI0Av77qOfPwSvoWvONaHP0G14crFJRwEMobnFRzIyGg7WYupeEwd22g&usqp=CAc',
+    },
+    {
+        game_name: 'Street Fighter 6',
+        game_price: 19.99,
+        game_gif: 'https://miro.medium.com/v2/resize:fit:1200/1*IJ0rJqoWZZ2NfV-IniTW5Q.gif',
+        game_img: 'https://m.media-amazon.com/images/I/81TOOo9I-CL._AC_UF894,1000_QL80_.jpg',
+    },
+    {
+        game_name: 'WWE 2k24',
+        game_price: 39.99,
+        game_gif: 'https://i.makeagif.com/media/11-07-2021/s4K2Zt.gif',
+        game_img: 'https://m.media-amazon.com/images/I/81h2WhI4dtL._AC_UF1000,1000_QL80_.jpg',
+    },
     
     
 ]
