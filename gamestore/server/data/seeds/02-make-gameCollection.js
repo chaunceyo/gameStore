@@ -127,6 +127,7 @@ const gameList = [
 
 
 exports.seed = async function(knex){
+    await knex('game_collection').insert(gameList)
     await knex('xbox_games').insert(gameList)
     await knex('playstation_games').insert(gameList)
     await knex('consoles').insert(consoleList)

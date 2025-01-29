@@ -8,6 +8,13 @@ exports.up = async function(knex) {
     table.string('console_img', 200).notNullable()
     //table.string('console_type', 200).notNullable()
   })
+  .createTable('game_collection', table => {
+    table.increments('game_id')
+    table.string('game_name', 200).notNullable().unique()
+    table.integer('game_price', 200).notNullable()
+    table.string('game_img', 200).notNullable()
+    table.string('game_gif', 200).notNullable()
+  })
   .createTable('xbox_games', table => {
     table.increments('game_id')
     table.string('game_name', 200).notNullable().unique()
@@ -28,5 +35,6 @@ exports.down = async function(knex) {
   await knex.schema
   .dropTableIfExists('playstation_games')  
   .dropTableIfExists('xbox_games')  
+  .dropTableIfExists('game_collection') 
   .dropTableIfExists('consoles')
 };
