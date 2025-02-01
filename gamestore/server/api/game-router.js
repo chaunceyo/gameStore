@@ -1,8 +1,10 @@
 const router = require('express').Router()
 
 router.get('/games', (req, res) => {
-    res.json({ message: 'List of games' });
+    res.json({ message: 'gameList' });
   });
+
+  
 
 router.use((err, req, res, next) => {
     res.status(500).json({
@@ -11,5 +13,7 @@ router.use((err, req, res, next) => {
         stack: err.stack
     })
 })
+
+
 
 module.exports = router
