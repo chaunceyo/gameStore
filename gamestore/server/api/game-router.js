@@ -8,7 +8,7 @@ router.get('/games', (req, res) => {
 
 router.use((err, req, res, next) => {
     res.status(500).json({
-        customMessage: 'something went wrong pls fix',
+        customMessage: 'something went wrong please fix',
         message: err.message,
         stack: err.stack
     })
